@@ -1,0 +1,20 @@
+import java.util.Scanner;
+public class Vowcons
+{
+    public static void main(String args[])
+    {Scanner sc=new Scanner(System.in);
+
+    char n=sc.next().charAt(0);
+    if(n=='a'||n=='e'||n=='i'||n=='o'||n=='u')
+   { System.out.println("Vowel");}
+    else if(Character.isDigit(n))
+    {System.out.println("Not an alphabet");}
+    else{
+    
+    System.out.println("Consonant");
+    }
+    
+    
+        
+    }
+}
