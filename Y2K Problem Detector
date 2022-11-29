@@ -1,0 +1,20 @@
+import java.util.Scanner;
+public class Agedetect
+{
+    public static void main(String args[])
+    {Scanner sc=new Scanner(System.in);
+    int age;
+    System.out.println("Enter Year of Birth");
+    int a=sc.nextInt();
+    System.out.println("Enter Current year");
+    int b=sc.nextInt();
+   if(a<b)
+   {
+    System.out.printf("Your age is %d",(b-a));  
+    }
+    if(a>b)
+    {
+        b=b+100;
+        System.out.printf("Your age is %d",(b-a));
+    }}
+}
