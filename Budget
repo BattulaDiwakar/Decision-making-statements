@@ -1,0 +1,18 @@
+import java.util.Scanner;
+public class Budget
+{
+    public static void main(String args[])
+    {Scanner sc=new Scanner(System.in);
+    int a=sc.nextInt();
+        //Write your code
+         int b=sc.nextInt();
+          int c=sc.nextInt();
+           int d=sc.nextInt();
+            int e=sc.nextInt();
+            double f=(350.34*a)+(230.90*b)+(190.55*c)+(125.30*d)+(180.90*e);
+            if(f<15000)
+            System.out.println("yes");
+            else
+            System.out.println("no");
+    }
+}
