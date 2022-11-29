@@ -1,0 +1,25 @@
+import java.util.Scanner;
+public class Microwave
+{
+    public static void main(String args[])
+    {Scanner sc=new Scanner(System.in);
+    System.out.println("Enter the number of items");
+    int a=sc.nextInt();
+    System.out.println("Enter the single item heating time");
+    float b=sc.nextFloat();
+    if(a==2)
+    {
+        double c=b*0.5;
+        System.out.printf("The recommended heating time is %.2f",(c+b));
+    }
+    else if(a==3)
+    { float d=b*2;
+        System.out.printf("The recommended heating time is %.2f",d);
+        
+    }else if(a>3)
+{
+    System.out.println("Number of items is more");
+}
+       
+    }
+}
