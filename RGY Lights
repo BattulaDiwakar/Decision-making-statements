@@ -1,0 +1,14 @@
+import java.util.Scanner;
+public class Lights
+{
+    public static void main(String args[])
+    {Scanner sc=new Scanner(System.in);
+    float s=sc.nextFloat();
+    float d=sc.nextFloat();
+    float t=sc.nextFloat();
+    if((s/d)<t){
+    System.out.println("no");}
+    if((s/d)>t){
+    System.out.println("yes");}
+    }
+}
